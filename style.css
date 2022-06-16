@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: brown;
+    font-size: 3rem;
+}
+
+body{
+    background-color: azure;
+    margin-left: 30px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
