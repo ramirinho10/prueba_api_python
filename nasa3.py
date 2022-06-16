@@ -57,10 +57,10 @@ def build_web_page(lista_fotos):
     html = html_template.substitute(body = texto_img)
     print(html)
 
-    return html
+    with open('output.html', 'w') as f:
+        f.write(html)
     
-html = build_web_page(fotos)
+build_web_page(fotos)
 
-with open('output.html', 'w') as f:
-    f.write(html)
+
 
